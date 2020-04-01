@@ -13,6 +13,7 @@
     "@types/react": "^16.9.31",
     "@types/react-dom": "^16.9.6",
     "@types/react-test-renderer": "^16.9.2",
+    "dotenv-safe": "^8.2.0",
     "luxon": "^1.22.2",
     "node-fetch": "^2.6.0",
     "react": "^16.13.1",
