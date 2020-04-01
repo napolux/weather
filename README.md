@@ -1,9 +1,10 @@
-# Weather
+# Weather [![Build Status](https://travis-ci.org/napolux/weather.svg?branch=master)](https://travis-ci.org/napolux/weather)
 
 Some details about the app: 
 
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 * The project is using [dotenv-safe](https://www.npmjs.com/package/dotenv-safe) for env. configuration. See `.env.example` for details. You'll need an account/app id provided by [https://openweathermap.org/](https://openweathermap.org/) to make it work on your local environment
+* Tests are run by [Travis CI](https://travis-ci.org/github/napolux/weather)
 
 ## Available Scripts
 
