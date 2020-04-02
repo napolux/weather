@@ -3,8 +3,9 @@
 Some details about the app: 
 
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
-* The project is using [dotenv-safe](https://www.npmjs.com/package/dotenv-safe) for env. configuration. See `.env.example` for details. You'll need an account/app id provided by [https://openweathermap.org/](https://openweathermap.org/) to make it work on your local environment
+* You'll need an account/app id provided by [https://openweathermap.org/](https://openweathermap.org/) to make it work on your local environment. **The free plan allows only 5 days forecast**
 * Tests are run by [Travis CI](https://travis-ci.org/github/napolux/weather)
+* Click on a card to see details
 
 ## Available Scripts
 

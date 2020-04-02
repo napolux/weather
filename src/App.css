@@ -6,6 +6,10 @@ body {
   margin: 20px 0px;
 }
 
+.ui.card .image {
+  background-color: rgb(39, 151, 226);
+}
+
 body {
   background-color: #eeeeee;
 }

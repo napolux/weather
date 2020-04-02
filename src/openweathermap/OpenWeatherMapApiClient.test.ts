@@ -7,29 +7,29 @@ describe('Testing mapping functions', () => {
     beforeEach(() => {
         client = new OpenWeatherMapApiClient();
     });
-    it('should map correct data in map7DaysForecast()', () => {
+    it('should map correct data in map5DaysForecast()', () => {
         const json = {
             list: [{
                 dt: 1573408800,
-                main: {
-                    temp: -0.79,
-                    temp_min: -0.79,
-                    temp_max: 0.22,
-                    pressure: 1013,
-                    sea_level: 1013,
-                    grnd_level: 1010,
-                    humidity: 86,
+                temp: {
+                    min: -0.79,
+                    max: 0.22
                 },
-            }],
+                weather: [
+                    {
+                        icon: 'icon.png'
+                    }
+                ]
+            }]
         };
 
         const expected = [{
-            date: '2019-11-10T19:00:00.000+01:00',
-            tempCelsius: -0.79,
-            pressureMillibar: 1013,
-            humidityPercent: 86,
+            date: '10/11/2019',
+            min: -0.79,
+            max: 0.22,
+            icon: 'icon.png',
         }];
-        const result = client.map7DaysForecast(json);
+        const result = client.map5DaysForecast(json);
         expect(result).to.deep.equal(expected);
     });
 });
