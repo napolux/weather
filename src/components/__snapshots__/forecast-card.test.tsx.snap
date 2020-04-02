@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<a
+  className="ui card"
+  onClick={[Function]}
+>
+  <div
+    className="image"
+  >
+    <img
+      src="http://openweathermap.org/img/wn/01d@2x.png"
+    />
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="header"
+    >
+      02/04/2020
+    </div>
+    <div
+      className="description"
+    >
+      Temperatura minima: 
+      6.62
+       °C 
+      <br />
+      Temperatura massima: 
+      13.06
+       °C
+    </div>
+  </div>
+</a>
+`;

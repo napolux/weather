@@ -19,7 +19,12 @@ describe('Testing mapping functions', () => {
                     {
                         icon: 'icon.png'
                     }
-                ]
+                ],
+                humidity: 37,
+                pressure: 1011,
+                speed: 1.54,
+                sunrise: 1585803658,
+                sunset: 1585849927
             }]
         };
 
@@ -28,6 +33,11 @@ describe('Testing mapping functions', () => {
             min: -0.79,
             max: 0.22,
             icon: 'icon.png',
+            humidity: 37,
+            sunrise: '07:00',
+            sunset: '19:52',
+            speed:1.54,
+            pressure:1011
         }];
         const result = client.map5DaysForecast(json);
         expect(result).to.deep.equal(expected);

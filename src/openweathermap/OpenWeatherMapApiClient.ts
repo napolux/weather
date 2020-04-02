@@ -43,6 +43,7 @@ export class OpenWeatherMapApiClient implements IOWMclient {
         const url: string = `${this.API_BASE_URL}${this.FORECAST_ENDPOINT}?q=${city}&cnt=5&units=metric&appid=${this.APP_ID}`;
         const response = await fetch(url);
         const json = await response.json();
+        console.log(json);
         return this.map5DaysForecast(json);
     }
 

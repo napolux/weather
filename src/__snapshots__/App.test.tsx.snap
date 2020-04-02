@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className="ui container"
+  >
+    <div
+      className="ui menu"
+    >
+      <div
+        className="header item"
+        onClick={[Function]}
+      >
+        Weather
+      </div>
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        <p>
+          A project by 
+          <a
+            href="https://napolux.com"
+          >
+            Francesco Napoletano
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="ui container"
+  >
+    <div
+      className="ui cards"
+    />
+  </div>,
+]
+`;
