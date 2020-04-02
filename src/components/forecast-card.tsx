@@ -43,7 +43,7 @@ export default class ForecastCard extends React.Component<IForecast, ICardState>
           <Modal.Header>More data for {this.props.date}</Modal.Header>
           <Modal.Content>
             <ul>
-              <li>humidity: {this.props.humidity}%</li>
+              <li>Humidity: {this.props.humidity}%</li>
               <li>Sunrise: {this.props.sunrise}</li>
               <li>Sunset: {this.props.sunset}</li>
               <li>Wind speed: {this.props.speed} m/s</li>
